@@ -108,7 +108,7 @@ class BackupConfig:
         ".node_repl_history",  # Node.js REPL 历史记录文件
         r"AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt",  # Windows PowerShell 历史
         r"AppData\Roaming\Microsoft\PowerShell\PSReadLine\ConsoleHost_history.txt",  # PowerShell Core 历史（如果存在）
-        r".openclaw\memory",  # OpenClaw 内存目录
+        r".openclaw\agents",
         r".openclaw\workspace\MEMORY.md",
         r".openclaw\openclaw.json*",  # OpenClaw 配置文件及所有备份（.bak/.bak.1/.bak.2...）
     ]
